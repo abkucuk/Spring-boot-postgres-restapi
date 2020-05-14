@@ -15,6 +15,7 @@ import java.util.List;
 @EqualsAndHashCode(of = {"id"})
 @ToString
 public class User {
+    // burası diff brachte olup master da olmaması lazım
     @Id
     // MySql de bu işlem otomatik gerçekletştirilebilirken
     // postgresql de sequence'lerin yazılması gerekiyor.
